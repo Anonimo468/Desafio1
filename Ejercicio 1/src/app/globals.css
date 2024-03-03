@@ -1,0 +1,62 @@
+/* src/App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-color: #dfc88a92;
+}
+
+form {
+  width: 300px;
+  padding: 20px;
+  border: 5px solid #9b5506;
+  border-radius: 25px;
+  margin: 0 auto; /* Centra el formulario */
+  
+}
+
+div {
+  margin: 0 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+button {
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: #07a0f8;
+  color: #e9f2e9;
+  border: none;
+  border-radius: 3px;
+}
+
+select,
+input,
+textarea {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+p {
+  font-weight: bold;
+  margin: 0;
+}
+button:hover {
+  background-color: #f20427; /* Cambia el color al pasar el mouse sobre el botón */
+}
+#balance {
+  color: #006600; /* Cambia el color del texto del balance */
+}
